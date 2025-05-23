@@ -12,7 +12,7 @@ app.use(cors());
 
 const port = 3000;
 
-const mongoURL = "mongodb://localhost:27017/my-database";
+const mongoURL = "mongodb+srv://saad:saad@efrei.sntjy.mongodb.net/API";
 
 mongoose.connect(mongoURL)
   .then(() => {
